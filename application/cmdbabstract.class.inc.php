@@ -2291,6 +2291,13 @@ HTML;
                                 oOriginField.find('textarea').triggerHandler('change');
                             });
                         });
+                        
+                        // Submit host form on "Ctrl + Enter" keyboard shortcut
+                        $('#$iId').on('keyup', function (oEvent) {
+                            if (oEvent.ctrlKey && oEvent.key === 'Enter') {
+                                $(this).closest('form').trigger('submit');
+                            }
+                        });
 EOF
 					);
 				break;
