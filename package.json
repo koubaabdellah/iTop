@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@fontsource/raleway": "^4.5.0",
+    "@fontsource/raleway": "^4.5.10",
     "@popperjs/core": "^2.4.4",
     "bulma-scss": "^0.9.4",
     "datatables.net": "^1.11.3",
